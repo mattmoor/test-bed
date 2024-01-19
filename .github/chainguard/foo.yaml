@@ -1,0 +1,13 @@
+issuer: https://accounts.google.com
+subject_pattern: .*
+claim_pattern:
+  email: .*@chainguard.dev
+
+permissions:
+  contents: read
+  # issues: write
+
+# # Only available in organization-level policies
+# repositories:
+# - test-bed
+# - bar
