@@ -1,5 +1,7 @@
 issuer: https://token.actions.githubusercontent.com
 subject: repo:chainguard-dev/mattmoor-actions:ref:refs/heads/main
+claim_pattern:
+  job_workflow_ref: chainguard-dev/mattmoor-actions/.github/workflows/octo-sts.yml@refs/heads/main
 
 permissions:
   contents: read
