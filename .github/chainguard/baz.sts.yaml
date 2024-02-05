@@ -1,0 +1,6 @@
+issuer: https://issuer.mattmoor.dev
+subject: 0c93ea417c77d420908078df4665cb012cef6adf
+
+permissions:
+  contents: read
+  # issues: write
